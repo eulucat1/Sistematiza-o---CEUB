@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPÊ - a sua loja de pratas!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-BTUtQzBEjv0raXGzAZbMhF5j1h98R+A8kg2fAgzYm9l8MdiHJRdGheF0JDLbEx+X" crossorigin="anonymous">
+
+
+</head>
+<body>
+    <header>
+        <h1>Ipê Pratas</h1>
+    </header>
+
+    <section id="apresentação">
+        <h2>Sejam bem-vindos à Ipê Pratas!</h2>
+        <nav>
+            <ul>
+                <li><a href="#equipe">quem somos</a></li>
+                <li><a href="#produto">nossos produtos</a></li>
+                <li><a href="#missão">missão</a></li>
+                <li><a href="#contato">contato</a></li>
+                <li><a href="#depoimentos">depoimentos</a></li>
+            </ul>
+        </nav>
+        <div class="apresentação">
+        <p>Somos apaixonados por prata e pela beleza dos acessórios que ela proporciona. </p>
+        <p>Oferecemos uma ampla seleção de joias e acessórios finamente trabalhados, todos feitos com prata genuína de alta qualidade.</p>
+        <p>Nosso compromisso com a qualidade é incomparável. </p>
+        <p>Cada peça é cuidadosamente selecionada e fabricada para garantir durabilidade e acabamento impecável. </p>
+        <p>Você encontrará desde designs clássicos e atemporais até criações modernas e inovadoras para atender a todos os gostos e ocasiões.</p>
+        <p>Explore a beleza da prata conosco e descubra como nossos acessórios podem adicionar um toque de brilho e elegância à sua vida. 
+        
+        <p>Ipê Pratas, onde a qualidade e a beleza se encontram!</p>
+        </div>
+            <div class="imagens">
+                <img src="ipe1.png" alt="Ipe Pratas"> 
+                </div>  
+        <h2>Aproveite nossa lojinha virtual!</h2>
+    </section>
+
+    <section id="produto">
+        <h3>Conheça nossos produtos!</h3>
+        <div class="images">
+            <img src="prata1.png" alt="Pulseira gravatinha com pontos de luz e coração">
+            <p>Pulseira gravatinha com pontos de luz e coração.</p>
+            <p><button onclick="window.location.href='https://www.ipepratas.com.br/masculino/pulseiras/'" type="ver-mais">Quero ver mais pulseiras!</button></p>
+            <img src="prata2.png" alt="Choker coração com pontos de luz tiffany">
+            <p>Choker coração com pontos de luz tiffany</p>
+            <p><button onclick="window.location.href='https://www.ipepratas.com.br/colar/choker/'" type="ver-mais">Quero ver mais choker!</button></p>
+            <img src="prata6.png" alt="Argolinha com coração rosa">
+            <p>Argolinha com coração rosa</p>
+            <p><button onclick="window.location.href='https://www.ipepratas.com.br/brincos/argola/'" type="ver-mais">Quero ver mais brincos/argolas!</button></p>
+            <img src="prata4.png" alt="Tornozeleira estrela do mar e concha">
+            <p>Tornozeleira estrela do mar e concha</p>
+            <p><button onclick="window.location.href='https://www.ipepratas.com.br/tornozeleiras/'" type="ver-mais">Quero ver mais tornozeleiras!</button></p>
+            <img src="prata5.png" alt="Escapulário amar/onda">
+            <p>Escapulário amar/onda</p>
+            <p><button onclick="window.location.href='https://www.ipepratas.com.br/colar/escapularios/'" type="ver-mais">Quero ver mais escapulários!</button></p>
+
+
+        </div>  
+    </section>
+
+    <section id="depoimentos">
+        <body>
+            <h2>Veja o que os nossos clientes estão comentando ...</h2>
+          <div class="testimonials-container">
+            <div class="testimonial">
+              <p>""Os brincos são simplesmente deslumbrantes! Adorei o design elegante e a qualidade impecável."."</p>
+              <span class="author">- Eunice Matos</span>
+            </div>
+            <div class="testimonial">
+              <p>"O pingente é absolutamente encantador! A delicadeza dos detalhes e o brilho da prata são simplesmente irresistíveis."</p>
+              <span class="author">Emilly Matos</span>
+            </div>
+            <div class="testimonial">
+              <p>"A corrente é perfeita! O acabamento é impecável e ela complementa qualquer look com um toque de sofisticação e estilo."</p>
+              <span class="author">Luisa Leonez</span>
+            </div>
+          </div>
+        </body>
+        </html>
+
+    </section>
+
+    <section id="equipe">
+        <h3>Conheça nossa equipe</h3>
+        <div class="team-member">
+            <img src="camille.jpeg" alt="Foto do membro da equipe" width="250" height="300">
+            <h5>Camille Matos</h5>
+            <p>CEO</p>
+        </div>
+        <div class="team-member">
+            <img src="vinicius.jpeg" alt="Foto do membro da equipe" width="250" height="300">
+            <h5>Vinicius Souza</h5>
+            <p>Engenheiro de Software</p>
+        </div>
+        <div class="team-member">
+            <img src="lucas.jpeg" alt="Foto do membro da equipe"width="230" height="300">
+            <h5>Lucas Araujo</h5>
+            <p>Designer UX/UI</p>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h3>Ficou com alguma dúvida? Conta pra gente!!</h3>
+        <form action="submit_form.php" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade">
+            </div>
+            <div class="form-group">
+                <label for="estado">Estado:</label>
+                <input type="text" id="estado" name="estado">
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <section id="missão">
+        <h3>Nossa Missão</h3>
+        <p>Na <strong>Ipê Pratas</strong>, nossa missão é oferecer acessórios de prata que transcendem o tempo, elevando a elegância e o estilo de nossos clientes. </p>
+        <p>Buscamos não apenas adornar, mas também inspirar confiança e autoexpressão em cada indivíduo que escolhe nossas peças.</p>
+        <p>Nosso compromisso com a qualidade é inabalável. Cada brinco, anel, pulseira, piercing e outros acessórios são cuidadosamente criados </p>
+        <p>com os mais altos padrões de artesanato, refletindo a beleza duradoura da prata.</p>
+        <p>Além disso, valorizamos profundamente a experiência do cliente. 
+        <p>Como uma marca que valoriza a autenticidade e a sofisticação, aspiramos ser mais do que uma simples loja de acessórios. </p>
+        
+    </section>
+
+    <footer>
+        <p>Siga-nos no Instagram: @ipeepratas - Nosso Telefone: (61) 9 8249 7411</p>
+      </footer>
+      
+</body>
+</html>
